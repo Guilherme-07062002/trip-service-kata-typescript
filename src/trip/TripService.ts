@@ -24,6 +24,7 @@ export default class TripService {
         return true;
       }
     }
+    return false;
   }
 
   protected getLoggedUser(): User | null {
